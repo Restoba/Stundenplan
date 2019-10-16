@@ -1,0 +1,36 @@
+package de.restoba.nuernberger;
+
+public class Schulstunden {
+
+	private double LAENGE = 0.45;
+	private String name;
+	
+	public Schulstunden(double lAENGE, String name) {
+		super();
+		LAENGE = lAENGE;
+		this.name = name;
+	}
+
+	public double getLAENGE() {
+		return LAENGE;
+	}
+
+	public void setLAENGE(double lAENGE) {
+		LAENGE = lAENGE;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void printStunde() {
+		
+		System.out.println(name);
+	}
+	
+	
+}

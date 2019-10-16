@@ -1,0 +1,11 @@
+package de.restoba.nuernberger;
+
+import java.util.TreeMap;
+
+public class Schultag {
+
+	TreeMap<Integer, Schulstunde> stunden = new TreeMap<Integer,Schulstunde>();
+	
+	
+	
+}

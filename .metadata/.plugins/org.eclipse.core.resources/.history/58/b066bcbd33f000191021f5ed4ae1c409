@@ -1,0 +1,8 @@
+package de.restoba.nuernberger;
+
+public class Schulstunden {
+
+	private String LAENGE = 0.45;
+	private String name;
+	
+}
